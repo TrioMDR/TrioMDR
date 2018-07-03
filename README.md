@@ -1,6 +1,9 @@
 ##TrioMDR
 Detecting SNP interactions in trio families with model-based multifactor dimensionality reduction
 
+Description :This page includes the codes of TrioMDR which are implemented and tested on R version 3.2.4 by Mr. Liu (Jie Liu, Email:jiel@email.swu.edu.cn) and free for academic usage. You can run it at your own disk. For other purposes, please contact the corresponding Author Dr. Wang (JunWang, Email: kingjun@swu.edu.cn). If you have any problem on using these codes,just contact Dr. Wang via Email.	
+
+
 Usage:
 source("path/TrioMDR.R")
 results <- TrioMDR(Trios.file, K=2, classm='PDT', adj.main='FALSE', nperm=5)
